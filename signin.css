@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+body p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bf{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    width: 140vh;
+    height: 80vh;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
+}
+.bf img{
+    height: 79.999vh;
+    width: 60vh;
+    filter: grayscale(50%);
+}
+.bf .w{
+    width: 80vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+}
+.bf .w h4{
+    text-decoration: underline #eaa79a solid;
+    font-weight: bolder;
+    margin-top: 80px;
+}
+.bf .w form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.bf .w form input[type=text],
+.bf .w form input[type=password]{
+    background: #ffffff;
+    outline: none;
+    border: 2px #eaa79a solid;
+    border-radius: 2rem;
+    padding: 6px 14px;
+    width: 280px;
+    margin-top: 15px;
+}
+.bf .w form input[type=submit]{
+    background: #eaa79a;
+    outline: none;
+    border: 0;
+    border-radius: 2rem;
+    padding: 6px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.bf .soc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bf .soc .ic{
+    display: flex;
+    flex-direction: row;
+}
+.bf .soc .ic h5{
+    margin-right: 8px;
+    margin-left: 8px;
+    background-color: rgba(0, 0, 0, 0.366);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+.bf .soc .ic h5:hover{
+    background: #eaa79a;
+}

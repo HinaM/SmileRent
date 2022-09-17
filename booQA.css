@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background: #eaa79a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header img{
+    margin-left: 15px;
+    width: 80px;
+}
+header .nav{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+.nav li{
+    list-style: none;
+    margin: auto;
+}
+.nav li a{
+    margin-right: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav li a:hover{
+    color: #7a8da6;
+}
+header .ico{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+.ico .sea{
+    list-style: none;
+    font-size: 25px;
+}
+.ico a:hover{
+    color: #7a8da6;
+}
+.ico a{
+    color: #ffffff;
+    margin-right: 15px;
+}
+.ico input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    background: none;
+    height: 45px;
+    width: 100px;
+    border: #ffffff solid;
+    border-radius: 1rem;
+    color: #ffffff;
+    padding: 2px;
+    cursor: pointer;
+}
+.ico input:hover{
+    border: #7a8da6 solid;
+    color: #7a8da6;
+}
+.mo-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #eaa79a;
+}
+.mo-header button{
+    outline: none;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+.modal-body input{
+    outline: none;
+    margin-bottom: 10px;
+    border: 1px #eaa79a solid;
+    border-radius: 1rem;
+    padding: 5px;
+}
+.modal-body textarea{
+    resize: none;
+    outline: none;
+    border: 1px #eaa79a solid;
+    border-radius: 1rem;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.modal-body button{
+    background: #eaa79a;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: 5px;
+}
+.se{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+.se .qu{
+    margin-bottom: 40px;
+}
+.bf3 .soc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bf3 .soc .soc1{
+    display: flex;
+    flex-direction: row;
+}
+.bf3 .soc .cp{
+    color: #7a8da6;
+}
+.bf3 .soc .soc1 a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: #7a8da6;
+}
+.bf3 .soc .soc1 a:hover{
+    color: #eaa79a;
+}
