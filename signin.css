@@ -56,7 +56,7 @@ body p{
     width: 280px;
     margin-top: 15px;
 }
-.bf .w form input[type=submit]{
+.bf .w form .signin{
     background: #eaa79a;
     outline: none;
     border: 0;
