@@ -175,6 +175,22 @@ header .ico{
     border-radius: 1rem;
     padding: 5px;
 }
+.modal-body1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.modal-body1 h5,p{
+    margin-left: 50px;
+}
+.modal-body1 table{
+    margin-left: 50px;
+}
+.modal-body1 table td{
+    height: 120px;
+    vertical-align: middle;
+}
 .bf{
   
     margin-left: 20px;
@@ -220,6 +236,16 @@ header .ico{
 .bf .page table td{
     height: 120px;
     vertical-align: middle;
+}
+.bf .page table td a{
+    color: #eaa79a;
+}
+.bf .page table td ul li a{
+    color: #333;
+}
+.bf .page table td .dropdown-item:focus{
+    background-color: #eaa79a;
+    color: #ffffff;
 }
 .bf .page table tr,th{
     width: 90px;
