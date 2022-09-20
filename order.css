@@ -214,123 +214,14 @@ header .ico{
     width: 80%;
     color: #68788e;
 }
-.bf .page .op{
-    text-decoration: underline;
-    cursor: pointer;
-}
-.bf .pages{
+.bf .page table{
     width: 80%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-bottom: 20px;
 }
-.bf .pages .f{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.bf .pages .f img{
-    margin-right: 15px;
-}
-.bf .pages .f .ff{
-    margin-top: 20px;
-}
-.bf .pages .f .ff span{
-    font-size: 10px;
-}
-.bf .pages .f .ff h4 .bg-ok{
-    color: #ffffff;
-    background-color: #71f4b0;
-}
- .bf .pages .f .ff h4 .bg-warn{
-    color: #707070;
-    background-color: #fff266;
-}
-.bf .pages .f .ff h4 .bg-dang{
-    color: #ffffff;
-    background-color: #ff7d66;
-}
-.bf .pages .btnn{
-    display: flex;
-    flex-direction: column;
-}
-.bf .pages .btnn input[type=submit]{
-    margin-top: 5px;
-    background: #ffffff98;
-    border: 2px #eaa79a solid;
-    outline: 0;
-    border-radius: 5px;
-    color: #eaa79a;
-    width: 150px;
-    padding: 6px;
-}
-.bf .pages .btnn input[type=submit]:hover{
-    background: #eaa79a;
-    color: #ffffff;
-}
-.page .cardss .cards{
-    width: 220px;
+.bf .page table td{
     height: 120px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 6px;
-    background-color: #ffffff;
-    border-radius: 1rem;
-    border: 1px #eaa79a solid;
+    vertical-align: middle;
 }
-.page .cardsss{
-    width: 80%;
-    display: flex;;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-.page .cardss .cards img{
-    margin-right: 25px;
-    margin-left: 15px;
-}
-.page .cardss{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-.alert{
-    width: 80%;
-}
-.page .ca{
-    width: 80%;
-}
-.ca h4{
-    border-left-style: solid;
-    border-left-color: #eaa79a;
-    border-left-width: thick;
-    margin-bottom: 20px;
-}
-.ca h6{
-    cursor: pointer;
-    color: #eaa79a;
-    text-decoration: underline;
-}
-.inf{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.inf .card{
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-.inf .card .card-body p{
-    margin-bottom: 3px;
+.bf .page table tr,th{
+    width: 90px;
+    text-align: center;
 }
