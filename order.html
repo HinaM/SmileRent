@@ -93,7 +93,7 @@
                         <ul class="dropdown-menu">
                             <li data-bs-toggle="modal" data-bs-target="#exampleModal1" class="id"><a class="dropdown-item" href="#">查看訂單明細</a></li>
                             <li><a class="dropdown-item" href="#">聯絡賣家</a></li>
-                            <li><a class="dropdown-item" href="#">產生寄回碼</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="gogo();">產生寄回碼</a></li>
                             <li><a class="dropdown-item" href="#">退貨/退款</a></li>
                         </ul>
                     </td>
@@ -109,9 +109,9 @@
                     <td>
                         <i class="fa-sharp fa-solid fa-ellipsis-vertical" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">查看訂單明細</a></li>
+                            <li data-bs-toggle="modal" data-bs-target="#exampleModal1" class="id"><a class="dropdown-item" href="#">查看訂單明細</a></li>
                             <li><a class="dropdown-item" href="#">聯絡賣家</a></li>
-                            <li><a class="dropdown-item" href="#">產生寄回碼</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="gogo();">產生寄回碼</a></li>
                             <li><a class="dropdown-item" href="#">退貨/退款</a></li>
                         </ul>
                     </td>
@@ -127,9 +127,9 @@
                     <td>
                         <i class="fa-sharp fa-solid fa-ellipsis-vertical" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">查看訂單明細</a></li>
+                            <li data-bs-toggle="modal" data-bs-target="#exampleModal1" class="id"><a class="dropdown-item" href="#">查看訂單明細</a></li>
                             <li><a class="dropdown-item" href="#">聯絡賣家</a></li>
-                            <li><a class="dropdown-item" href="#">取消訂單</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="gogo2();">取消訂單</a></li>
                         </ul>
                     </td>
                   </tr>
@@ -144,9 +144,9 @@
                     <td>
                         <i class="fa-sharp fa-solid fa-ellipsis-vertical" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">查看訂單明細</a></li>
+                            <li data-bs-toggle="modal" data-bs-target="#exampleModal1" class="id"><a class="dropdown-item" href="#">查看訂單明細</a></li>
                             <li><a class="dropdown-item" href="#">聯絡賣家</a></li>
-                            <li><a class="dropdown-item" href="#">查看評價</a></li>
+                            <li data-bs-toggle="modal" data-bs-target="#exampleModal2" class="id"><a class="dropdown-item" href="#">查看評價</a></li>
                         </ul>
                     </td>
                   </tr>
@@ -161,9 +161,9 @@
                     <td>
                         <i class="fa-sharp fa-solid fa-ellipsis-vertical" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">查看訂單明細</a></li>
+                            <li data-bs-toggle="modal" data-bs-target="#exampleModal1" class="id"><a class="dropdown-item" href="#">查看訂單明細</a></li>
                             <li><a class="dropdown-item" href="#">聯絡賣家</a></li>
-                            <li><a class="dropdown-item" href="#">查看評價</a></li>
+                            <li data-bs-toggle="modal" data-bs-target="#exampleModal2" class="id"><a class="dropdown-item" href="#">查看評價</a></li>
                         </ul>
                     </td>
                   </tr>
@@ -171,16 +171,39 @@
               </table>
               <nav aria-label="Page navigation example">
                 <ul class="pagination">
-                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-arrow-left-long"></i></a></li>
+                  <li class="page-item active"><a class="page-link" style="background-color: #eaa79a;" href="#">1</a></li>
                   <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" >...</a></li>
+                  <li class="page-item"><a class="page-link1">...</a></li>
                   <li class="page-item"><a class="page-link" href="#">8</a></li>
-                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                  <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-arrow-right-long"></i></a></li>
                 </ul>
               </nav>
         </div>
     </section>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="mo-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">評價</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body1">
+                    <div class="callout">
+                        <h4>進行良好的交易</h4>
+                        Smile幣已發放
+                      </div>
+                    <h5>&nbsp;評價此商品</h5>
+                    <p style="font-size: 30px;color: #febd32;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                    <p>評價備註：好耶</p>
+                    <h5>&nbsp;賣方的評價</h5>
+                    <p style="font-size: 30px;color: #febd32;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                    <p>評價備註：好耶</p>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
     <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
@@ -189,11 +212,11 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body1">
-                    <h5>訂單資訊</h5>
+                    <h5>&nbsp;訂單資訊</h5>
                     <p>訂單編號：12354</p>
                     <p>訂單日期：2022/9/18 18:59</p>
                     <p>訂單狀態:成立</p>
-                    <h5>商品清單</h5>
+                    <h5>&nbsp;商品清單</h5>
                     <table class="table">
                         <thead>
                           <tr>
@@ -213,7 +236,36 @@
                             <td>3000</td>
                           </tr>
                         </tbody>
-                      </table>
+                    </table>
+                    <div class="pay">
+                        <div>
+                            <h5>&nbsp;付款資訊</h5>
+                            <p>付款方式：信用卡支付</p>
+                            <p>付款狀態：已付款</p>
+                            <p>付款備註：</p>
+                        </div>
+                        <div>
+                            <h5>&nbsp;付款人資訊</h5>
+                            <p>付款人姓名：葉司晨</p>
+                            <p>付款人電話：0912345678</p>
+                            <p>付款人Email：yeschen@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="deli">
+                        <div>
+                            <h5>&nbsp;送貨資訊</h5>
+                            <p>出貨狀態：貨物正送往物流中心</p>
+                            <p>出貨備註：</p>
+                        </div>
+                        <div>
+                            <h5>&nbsp;收件人資訊</h5>
+                            <p>收件人姓名：葉司晨</p>
+                            <p>收件人電話：0912345678</p>
+                            <p>收件人選擇超商：7ELEVEN 輔大門市</p>
+                            <p>收件人電話：0912345678</p>
+                            <p>收件人Email：yeschen@gmail.com</p>
+                        </div>
+                    </div>
                 </div>
             </div>
           </div>
@@ -234,7 +286,11 @@
 </body>
 <script>
     function gogo(){
-        alert("已收到您的實名資訊，審查時間約為三日。");
+        alert("您的寄回碼為123456789，請在寄回碼過期3日內寄回。");
+        window.location.reload(1);
+    }
+    function gogo2(){
+        alert("訂單已取消。");
         window.location.reload(1);
     }
 </script>

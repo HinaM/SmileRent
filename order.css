@@ -181,15 +181,27 @@ header .ico{
     flex-direction: column;
     width: 85%;
 }
+.modal-body1 h5{
+    border-left-style: solid;
+    border-left-color: #eaa79a;
+    border-left-width: thick;
+}
 .modal-body1 h5,p{
     margin-left: 50px;
 }
 .modal-body1 table{
     margin-left: 50px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .modal-body1 table td{
     height: 120px;
     vertical-align: middle;
+}
+.modal-body1 .pay,.deli{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 .bf{
   
@@ -250,4 +262,35 @@ header .ico{
 .bf .page table tr,th{
     width: 90px;
     text-align: center;
+}
+.pagination a {
+    border: 0;
+    background: none;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    outline: none;
+}
+.pagination a:focus{
+    box-shadow: none;
+    background-color: rgb(255, 252, 252);
+    color: #333;
+}
+.pagination .page-link:hover{
+    background-color: #fceeec71;
+    color: #eaa79a;
+}
+.callout{
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid rgb(92, 184, 92);
+    border-left-width: 5px;
+    border-radius: 3px;
+    margin-left: 45px;
+}
+.callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: rgb(92, 184, 92);
 }
