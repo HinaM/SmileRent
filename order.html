@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>SmileRent</title>
 </head>
-<body style="background-color: #fff9f858;">
+<body style="background-color: #fff9f858;color: #7a8da6;">
     <header>
         <img src="./img/amazon-pay.png" alt="">
         <ul class="nav">
@@ -56,20 +56,41 @@
             <ul>
                 <li><a href="./in.html"><i class="fa-solid fa-gear"></i> 會員中心</a></li>
                 <li><a href="#" class="de"><i class="fa-solid fa-credit-card"></i> 交易紀錄</a></li>
-                <li><a href="#"><i class="fa-solid fa-heart"></i> 捐贈專區</a></li>
+                <li><a href="./donate.html"><i class="fa-solid fa-heart"></i> 捐贈專區</a></li>
                 <li><a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i> 系統訊息</a></li>
                 <li><a href="#"><i class="fa-sharp fa-solid fa-comments"></i> 聊聊紀錄</a></li>
                 <li><a href="./signin.html"><i class="fa-solid fa-right-from-bracket"></i> 登出</a></li>
             </ul>
         </div>
         <div class="page">
-            <div class="search">
-                <p>篩選</p>
+            <div style="width: 80%;margin-bottom: 20px;">
+                <h4 style="font-weight: bolder;border-left-color: #eaa79a;border-left-width: 5px;border-left-style: solid;">&nbsp;訂單紀錄</h4>
+            </div>
+            <div class="se" style="margin-bottom: 10px;">
+                <div style="margin-bottom: 10px;">
+                    <label for="" style="margin-right: 10px;">依租借狀況篩選</label>
+                    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                    <label class="btn btn-outline-success" for="btncheck1">已歸還</label>
+                  
+                    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                    <label class="btn btn-outline-danger" for="btncheck2">未歸還</label>
+                  
+                    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                    <label class="btn btn-outline-warning" for="btncheck3">等待寄送中</label>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="" style="margin-right: 10px;">依租借行為篩選</label>
+                    <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                    <label class="btn btn-outline-dark" for="btncheck4">租衣</label>
+                  
+                    <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                    <label class="btn btn-outline-info" for="btncheck5">借衣</label>
+                </div>
             </div>
             <table class="table table-hover" align="center">
                 <thead>
                   <tr>
-                    <th scope="col">追蹤碼</th>
+                    <th scope="col">物流追蹤碼</th>
                     <th scope="col">時間日期</th>
                     <th scope="col">品項</th>
                     <th scope="col">租借時間</th>
