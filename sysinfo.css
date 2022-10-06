@@ -175,34 +175,6 @@ header .ico{
     border-radius: 1rem;
     padding: 5px;
 }
-.modal-body1{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-}
-.modal-body1 h5{
-    border-left-style: solid;
-    border-left-color: #eaa79a;
-    border-left-width: thick;
-}
-.modal-body1 h5,p{
-    margin-left: 50px;
-}
-.modal-body1 table{
-    margin-left: 50px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.modal-body1 table td{
-    height: 120px;
-    vertical-align: middle;
-}
-.modal-body1 .pay,.deli{
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-}
 .bf{
   
     margin-left: 20px;
@@ -242,49 +214,19 @@ header .ico{
     width: 80%;
     color: #68788e;
 }
-.bf .page .se{
-    width: 80%;
+.bf .page .cardss p .bg-p{
+    background-color: #eaa79a;
+}
+.bf .page nav ul{
+    margin-top: 15px;
     display: flex;
-    flex-direction: column;
-    align-items: left;
-}
-.bf .page .se .btn-outline-s{
-    border: 1px #eaa79a solid;
-    color: #eaa79a;
-}
-.bf .page .se .btn-outline-s:checked ~ span {
-    background-color: #eaa79a;
-}
-.bf .page .se select{
+    flex-direction: row;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
     outline: none;
-    width: 100px;
-    height: 30px;
 }
-.bf .page table{
-    width: 80%;
-}
-.bf .page table td{
-    height: 120px;
-    vertical-align: middle;
-}
-.bf .page table td a{
-    color: #eaa79a;
-}
-.bf .page table td ul li a{
-    color: #333;
-}
-.bf .page table td .dropdown-item:focus{
-    background-color: #eaa79a;
-    color: #ffffff;
-}
-.bf .page table tr,th{
-    width: 90px;
-    text-align: center;
-}
-.bf .page .search input:focus{
-    background: #68788e;
-}
-.pagination a {
+.bf .page nav ul li a{
     border: 0;
     background: none;
     color: black;
@@ -293,25 +235,27 @@ header .ico{
     text-decoration: none;
     outline: none;
 }
-.pagination a:focus{
+nav a:focus{
     box-shadow: none;
     background-color: rgb(255, 252, 252);
     color: #333;
+    outline: none;
 }
-.pagination .page-link:hover{
+nav .page-link:hover{
     background-color: #fceeec71;
     color: #eaa79a;
 }
-.callout{
+.bf .page .cardss{
+    background: rgb(255, 255, 255);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding: 20px;
-    margin: 20px 0;
-    border: 1px solid rgb(92, 184, 92);
-    border-left-width: 5px;
-    border-radius: 3px;
-    margin-left: 45px;
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
+    border-radius: 1rem;
 }
-.callout h4 {
-    margin-top: 0;
-    margin-bottom: 5px;
-    color: rgb(92, 184, 92);
+.bf .page .cardss .cardsss{
+    width: 90%;
 }
