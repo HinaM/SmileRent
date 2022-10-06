@@ -218,15 +218,42 @@ header .ico{
     width: 25%;
 }
 .bf .page .chat{
-    background: #eaa79a;
     width: 55%;
+}
+.bf .page .chat .me{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bf .page .chat .oth{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.bf .page .chat .me p{
+    background: #eaa79a;
+    padding: 5px 12px;
+    color: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
+}
+.bf .page .chat .oth p{
+    background: #ffffff;
+    padding: 5px 12px;
+    border-radius: 2rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
 }
 .bf .page .listt .user{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    cursor: pointer;
 }
 .bf .page .listt .user img{
+    margin-left: 10px;
     border-radius: 50%;
+}
+.bf .page .listt .user:hover{
+    background-color: #68788e19;
 }
