@@ -220,6 +220,20 @@ header .ico{
 .bf .page .chat{
     width: 55%;
 }
+.bf .page .chat button{
+    outline: none;
+    background: #ffffff;
+    border: 1px #eaa79a solid;
+    width: 180px;
+    height: 35px;
+    margin-right: 10px;
+    color: #eaa79a;
+    border-radius: 5px;
+}
+.bf .page .chat button:hover{
+    color: #ffffff;
+    background: #eaa79a;
+}
 .bf .page .chat .me{
     display: flex;
     align-items: center;
@@ -230,6 +244,11 @@ header .ico{
     align-items: center;
     justify-content: flex-start;
 }
+.bf .page .chat .t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .bf .page .chat .me p{
     background: #eaa79a;
     padding: 5px 12px;
@@ -238,7 +257,7 @@ header .ico{
     box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
 }
 .bf .page .chat .oth p{
-    background: #ffffff;
+    background: #e4e6eb;
     padding: 5px 12px;
     border-radius: 2rem;
     box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
