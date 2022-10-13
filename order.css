@@ -248,12 +248,9 @@ header .ico{
     flex-direction: column;
     align-items: left;
 }
-.bf .page .se .btn-outline-s{
-    border: 1px #eaa79a solid;
-    color: #eaa79a;
-}
-.bf .page .se .btn-outline-s:checked ~ span {
-    background-color: #eaa79a;
+
+.bf .page .se .btn-o{
+    color: #e69686;
 }
 .bf .page .se select{
     outline: none;

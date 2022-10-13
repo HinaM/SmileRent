@@ -22,7 +22,7 @@
             <li><a href="./booQA.html"><i class="fa-solid fa-question"></i> 常見問題</a></li>          
         </ul>
         <div class="ico">
-            <a href="#" class="sea"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+            <a class="sea" data-bs-toggle="modal" data-bs-target="#exampleModalse"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
             <a href="./sysinfo.html" class="sea"><i class="fa-solid fa-bell">
                 <span class="position-absolute top-2 start-80 translate-middle p-1 bg-danger border border-light rounded-circle">
                     <span class="visually-hidden">New alerts</span>
@@ -35,6 +35,25 @@
             </a>
         </div>
     </header>
+    <div class="modal fade" id="exampleModalse" tabindex="-1" aria-labelledby="exampleModalLabelse" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" style="opacity: 0.9;">
+          <div class="modal-content">
+            <div class="mo-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="display:flex; align-items: center;justify-content: center; flex-direction: column;">
+                <div style="display: flex; flex-direction: row;">
+                    <input type="text" style="padding: 2px 12px; height: 35px; width: 500px;">
+                    <p style="font-size: 20px; margin-left: 15px; cursor: pointer; color: #eaa79a;"><i class="fa-solid fa-magnifying-glass"></i></p>
+                </div>
+                <div>
+                    <p>熱門搜尋：<a href="#" style="color: #eaa79a;">上衣</a> <a href="#" style="color: #eaa79a;">雪紡襯衫</a> <a href="#" style="color: #eaa79a;">洋裝</a> <a href="#" style="color: #eaa79a;">外套</a></p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -137,25 +156,25 @@
                     </div>
                 </div>
                 <div class="me">
-                    <p style="font-size: 17px;">請問可以議價嗎？</p>
+                    <span style="font-size: 11px;color: rgb(205, 205, 205);">2020/1/1 17:51&nbsp;</span><p style="font-size: 17px;">請問可以議價嗎？</p>
                 </div>
                 <div class="oth">
-                    <p style="font-size: 17px;">可以</p>
+                    <p style="font-size: 17px;">可以</p><span style="font-size: 11px;color: rgb(205, 205, 205);">&nbsp;2020/1/1 17:51</span>
                 </div>
                 <div class="me">
-                    <p style="font-size: 17px;">60/1天可以嗎？</p>
+                    <span style="font-size: 11px;color: rgb(205, 205, 205);">2020/1/1 17:51&nbsp;</span><p style="font-size: 17px;">60/1天可以嗎？</p>
                 </div>
                 <div class="oth">
-                    <p style="font-size: 17px;">可以喔</p>
+                    <p style="font-size: 17px;">可以喔</p><span style="font-size: 11px;color: rgb(205, 205, 205);">&nbsp;2020/1/1 17:51</span>
                 </div>
                 <div class="me">
-                    <p style="font-size: 17px;">謝謝</p>
+                    <span style="font-size: 11px;color: rgb(205, 205, 205);">2020/1/1 17:51&nbsp;</span><p style="font-size: 17px;">謝謝</p>
                 </div>
                 <div style="margin-top: 60px;"></div>
                 <div class="t" style="background: #c6c6c658; padding: 10px;">
-                    <i class="fa-solid fa-image" style="margin-right: 5px; color: #eaa79a; font-size: 25px; cursor: pointer;"></i>
-                    <input type="text" name="" id="" style="width: 80%; margin-right: 5px; outline: none; border: 1px #eaa79a solid; border-radius: 2rem; padding: 2px 12px; height: 35px;">
-                    <i class="fa-solid fa-paper-plane" style="margin-right: 5px; color: #eaa79a; font-size: 25px; cursor: pointer;"></i>
+                    <i class="fa-solid fa-image" style="margin-right: 15px; color: #eaa79a; font-size: 25px; cursor: pointer;"></i>
+                    <input type="text" name="" id="" style="width: 80%; margin-right: 10px; outline: none; border: 1px #eaa79a solid; border-radius: 2rem; padding: 2px 12px; height: 35px;">
+                    <i class="fa-solid fa-paper-plane" style="margin-right: 15px; color: #eaa79a; font-size: 25px; cursor: pointer;"></i>
                 </div>
             </div>
         </div>

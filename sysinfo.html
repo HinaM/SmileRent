@@ -22,7 +22,7 @@
             <li><a href="./booQA.html"><i class="fa-solid fa-question"></i> 常見問題</a></li>          
         </ul>
         <div class="ico">
-            <a href="#" class="sea"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+            <a class="sea" data-bs-toggle="modal" data-bs-target="#exampleModalse"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
             <a href="#" class="sea"><i class="fa-solid fa-bell">
                 <span class="position-absolute top-2 start-80 translate-middle p-1 bg-danger border border-light rounded-circle">
                     <span class="visually-hidden">New alerts</span>
@@ -35,6 +35,25 @@
             </a>
         </div>
     </header>
+    <div class="modal fade" id="exampleModalse" tabindex="-1" aria-labelledby="exampleModalLabelse" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" style="opacity: 0.9;">
+          <div class="modal-content">
+            <div class="mo-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="display:flex; align-items: center;justify-content: center; flex-direction: column;">
+                <div style="display: flex; flex-direction: row;">
+                    <input type="text" style="padding: 2px 12px; height: 35px; width: 500px;">
+                    <p style="font-size: 20px; margin-left: 15px; cursor: pointer; color: #eaa79a;"><i class="fa-solid fa-magnifying-glass"></i></p>
+                </div>
+                <div>
+                    <p>熱門搜尋：<a href="#" style="color: #eaa79a;">上衣</a> <a href="#" style="color: #eaa79a;">雪紡襯衫</a> <a href="#" style="color: #eaa79a;">洋裝</a> <a href="#" style="color: #eaa79a;">外套</a></p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
