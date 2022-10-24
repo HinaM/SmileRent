@@ -253,8 +253,6 @@ nav .page-link:hover{
     justify-content: center;
     flex-direction: column;
     padding: 20px;
-    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
-    border-radius: 1rem;
 }
 .bf .page .cardss .cardsss{
     width: 90%;
