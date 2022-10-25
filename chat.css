@@ -216,9 +216,17 @@ header .ico{
 }
 .bf .page .listt{
     width: 25%;
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 570px;
 }
 .bf .page .chat{
     width: 55%;
+}
+.bf .page .chat .nw{
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 350px;
 }
 .bf .page .chat button{
     outline: none;
@@ -238,11 +246,13 @@ header .ico{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-right: 10px;
 }
 .bf .page .chat .oth{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-left: 10px;
 }
 .bf .page .chat .t{
     display: flex;
