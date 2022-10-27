@@ -230,17 +230,17 @@ header .ico{
 }
 .bf .page .chat button{
     outline: none;
-    background: #ffffff;
+    color: #ffffff;
     border: 1px #eaa79a solid;
     width: 180px;
     height: 35px;
     margin-right: 10px;
-    color: #eaa79a;
+    background: #eaa79a;
     border-radius: 5px;
 }
 .bf .page .chat button:hover{
-    color: #ffffff;
-    background: #eaa79a;
+    background: #ffffff;
+    color: #eaa79a;
 }
 .bf .page .chat .me{
     display: flex;

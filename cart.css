@@ -245,3 +245,47 @@ header .ico{
 .bf .page .car{
     width: 80%;
 }
+.bf .page .car .cartt{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background: #ffffff;
+    margin-bottom: 15px;
+}
+.bf .page .car .cartt button{
+    outline: none;
+    width: 100px;
+    background: #eaa79a;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px #eaa79a solid;
+    border-radius: 5px;
+}
+.bf .page .car .cartt button:hover{
+    color: #eaa79a;
+    background-color: #ffffff;
+    border: 1px #eaa79a solid;
+}
+.bf .page .pa{
+    width: 80%;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 2px #eaa79a solid;
+}
+.bf .page .pa button{
+    outline: none;
+    width: 120px;
+    background: #eaa79a;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px #eaa79a solid;
+    border-radius: 5px;
+}
+.bf .page .pa button:hover{
+    color: #eaa79a;
+    background-color: #ffffff;
+    border: 1px #eaa79a solid;
+}
