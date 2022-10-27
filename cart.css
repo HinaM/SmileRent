@@ -113,6 +113,9 @@ header .ico{
 .bf3 .soc .cp{
     color: #7a8da6;
 }
+.bf3 .soc .soc1 p{
+    margin-left: 0;
+}
 .bf3 .soc .soc1 a{
     text-decoration: none;
     margin-right: 15px;
