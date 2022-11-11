@@ -214,3 +214,19 @@ header .ico{
     width: 80%;
     color: #68788e;
 }
+.bf .page .cards .cardss .badge {
+    color: #eaa79a;
+    background-color: white;
+    border: 1px #eaa79a solid;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+.bf .page .cards .cardss .badge.nook {
+    background-color: #eaa79a;
+    color: white;
+    border: 1px #eaa79a solid;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+  }
