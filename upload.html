@@ -36,7 +36,7 @@
         </div>
     </header>
     <div class="modal fade" id="exampleModalse" tabindex="-1" aria-labelledby="exampleModalLabelse" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" style="opacity: 0.9;">
+        <div class="modal-dialog modal-dialog-centered modal-lg" style="opacity: 1;">
           <div class="modal-content">
             <div class="mo-header">
                 <h5 class="modal-title" id="exampleModalToggleLabel"></h5>
@@ -72,89 +72,169 @@
     </div>
     <section class="bf">
         <div class="list">
-            <ul>
-                <li><a href="#" class="de"><i class="fa-solid fa-gear"></i> 會員中心</a></li>
-                <li><a href="./order.html"><i class="fa-solid fa-credit-card"></i> 交易紀錄</a></li>
-                <li><a href="./donate.html"><i class="fa-solid fa-heart"></i> 捐贈專區</a></li>
-                <li><a href="./sysinfo.html"><i class="fa-sharp fa-solid fa-circle-info"></i> 系統訊息</a></li>
-                <li><a href="./chat.html"><i class="fa-sharp fa-solid fa-comments"></i> 聊聊紀錄</a></li>
-                <li><a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i> 購物車</a></li>
-                <li><a href="./signin.html"><i class="fa-solid fa-right-from-bracket"></i> 登出</a></li>
-            </ul>
+            <p style="width: 200px; margin: 0;">搜尋類別</p>
+            <select class="form-select" aria-label="Default select example" style="width: 200px;margin-bottom: 15px;">
+                <option selected>類別</option>
+                <option value="1">正裝</option>
+                <option value="2">日常服裝</option>
+                <option value="3">其他</option>
+              </select>
+              <p style="width: 200px; margin: 0;">搜尋子類別</p>
+              <select class="form-select" aria-label="Default select example" style="width: 200px;margin-bottom: 15px;">
+                <option selected>子類別</option>
+                <option value="1">西裝</option>
+                <option value="2">禮服</option>
+                <option value="3">外套</option>
+              </select>
+              <p style="width: 200px; margin: 0;">篩選價格範圍</p>
+              <div style="display: flex; flex-direction: row;align-items: center;justify-content: center;margin-bottom: 15px;">
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" style="width: 95px;">
+                <p>~</p>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" style="width: 95px;">
+            </div>
+            <div class="form-check" style="width: 200px;">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  只顯示可租借
+                </label>
+            </div>
+            <div class="form-check" style="width: 200px;">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  只顯示租借中
+                </label>
+            </div>
+            <div class="form-check" style="width: 200px;">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  只顯示5星評價
+                </label>
+            </div>
         </div>
         <div class="page">
-            <div style="margin-bottom: 25px;margin-top: 25px;width: 80%;">
-                <input type="text" name="" id="">
+            <div style="margin-bottom: 25px;margin-top: 25px;width: 80%;display: flex;flex-direction: row;justify-content: space-between;">
+                <h5 style="border-left-color: #eaa79a;border-left-width: 5px;border-left-style: solid;">&nbsp;以「雪紡上衣」結果搜尋（共150筆符合）</h5>
+                <select class="form-select" aria-label="Default select example" style="width: 200px;">
+                    <option selected>依上架時間排序</option>
+                    <option value="1">依價格排序</option>
+                    <option value="2">依評價數排序</option>
+                    <option value="3">可租借優先</option>
+                  </select>
             </div>
-            <div class="cards" style="width: 80%;display: flex; flex-direction:row; justify-content: space-between;margin-bottom: 25px;">
+            <div class="cards" style="width: 80%;height: 350px ;display: flex; flex-direction:row; justify-content: space-between;margin-bottom: 25px;">
                 <div class="cardss" style="width:300px;display: flex; flex-direction:column;border-radius: 1rem;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 10px;background: #ffffff;align-items: center;">
-                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="250px" width="250px" style="margin-top: 15px">
+                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="230px" width="230px" style="margin-top: 10px">
                     <div style="width:100%;text-align: left;margin-left: 30px;">
-                        <h5 style="margin-top: 10px;">雪紡上衣</h5>
-                        <p style="color: #ffc84d;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <h5 style="margin-top: 10px;margin-bottom: 2px;">雪紡上衣</h5>
+                        <p style="color: #ffc84d;margin-bottom: 2px;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <p style="margin: 0;"><span style="color: #ffc84d;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>（16）</p>
                     </div> 
                 </div>
                 <div class="cardss" style="width:300px;display: flex; flex-direction:column;border-radius: 1rem;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 10px;background: #ffffff;align-items: center;">
-                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="250px" width="250px" style="margin-top: 15px">
+                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="230px" width="230px" style="margin-top: 10px">
                     <div style="width:100%;text-align: left;margin-left: 30px;">
-                        <h5 style="margin-top: 10px;">雪紡上衣</h5>
-                        <p style="color: #ffc84d;"><span class="badge nook">出租中</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <h5 style="margin-top: 10px;margin-bottom: 2px;">雪紡上衣</h5>
+                        <p style="color: #ffc84d;margin-bottom: 2px;"><span class="badge nook">出租中</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <p style="margin: 0;"><span style="color: #ffc84d;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>（16）</p>
                     </div> 
                 </div>
                 <div class="cardss" style="width:300px;display: flex; flex-direction:column;border-radius: 1rem;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 10px;background: #ffffff;align-items: center;">
-                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="250px" width="250px" style="margin-top: 15px">
+                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="230px" width="230px" style="margin-top: 10px">
                     <div style="width:100%;text-align: left;margin-left: 30px;">
-                        <h5 style="margin-top: 10px;">雪紡上衣</h5>
-                        <p style="color: #ffc84d;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <h5 style="margin-top: 10px;margin-bottom: 2px;">雪紡上衣</h5>
+                        <p style="color: #ffc84d;margin-bottom: 2px;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <p style="margin: 0;"><span style="color: #ffc84d;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>（16）</p>
                     </div> 
-                </div>                
+                </div>              
             </div>
-            <div class="cards" style="width: 80%;display: flex; flex-direction:row; justify-content: space-between;margin-bottom: 25px;">
+            <div class="cards" style="width: 80%;height: 345px ;display: flex; flex-direction:row; justify-content: space-between;margin-bottom: 25px;">
                 <div class="cardss" style="width:300px;display: flex; flex-direction:column;border-radius: 1rem;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 10px;background: #ffffff;align-items: center;">
-                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="250px" width="250px" style="margin-top: 15px">
+                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="230px" width="230px" style="margin-top: 10px">
                     <div style="width:100%;text-align: left;margin-left: 30px;">
-                        <h5 style="margin-top: 10px;">雪紡上衣</h5>
-                        <p style="color: #ffc84d;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <h5 style="margin-top: 10px;margin-bottom: 2px;">雪紡上衣</h5>
+                        <p style="color: #ffc84d;margin-bottom: 2px;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <p style="margin: 0;"><span style="color: #ffc84d;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>（16）</p>
                     </div> 
                 </div>
                 <div class="cardss" style="width:300px;display: flex; flex-direction:column;border-radius: 1rem;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 10px;background: #ffffff;align-items: center;">
-                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="250px" width="250px" style="margin-top: 15px">
+                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="230px" width="230px" style="margin-top: 10px">
                     <div style="width:100%;text-align: left;margin-left: 30px;">
-                        <h5 style="margin-top: 10px;">雪紡上衣</h5>
-                        <p style="color: #ffc84d;"><span class="badge nook">出租中</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <h5 style="margin-top: 10px;margin-bottom: 2px;">雪紡上衣</h5>
+                        <p style="color: #ffc84d;margin-bottom: 2px;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <p style="margin: 0;"><span style="color: #ffc84d;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>（16）</p>
                     </div> 
                 </div>
                 <div class="cardss" style="width:300px;display: flex; flex-direction:column;border-radius: 1rem;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 10px;background: #ffffff;align-items: center;">
-                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="250px" width="250px" style="margin-top: 15px">
+                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="230px" width="230px" style="margin-top: 10px">
                     <div style="width:100%;text-align: left;margin-left: 30px;">
-                        <h5 style="margin-top: 10px;">雪紡上衣</h5>
-                        <p style="color: #ffc84d;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <h5 style="margin-top: 10px;margin-bottom: 2px;">雪紡上衣</h5>
+                        <p style="color: #ffc84d;margin-bottom: 2px;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <p style="margin: 0;"><span style="color: #ffc84d;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>（16）</p>
                     </div> 
-                </div>                
+                </div>          
             </div>
-            <div class="cards" style="width: 80%;display: flex; flex-direction:row; justify-content: space-between;margin-bottom: 25px;">
+            <div class="cards" style="width: 80%;height: 345px ;display: flex; flex-direction:row; justify-content: space-between;margin-bottom: 25px;">
                 <div class="cardss" style="width:300px;display: flex; flex-direction:column;border-radius: 1rem;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 10px;background: #ffffff;align-items: center;">
-                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="250px" width="250px" style="margin-top: 15px">
+                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="230px" width="230px" style="margin-top: 10px">
                     <div style="width:100%;text-align: left;margin-left: 30px;">
-                        <h5 style="margin-top: 10px;">雪紡上衣</h5>
-                        <p style="color: #ffc84d;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <h5 style="margin-top: 10px;margin-bottom: 2px;">雪紡上衣</h5>
+                        <p style="color: #ffc84d;margin-bottom: 2px;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <p style="margin: 0;"><span style="color: #ffc84d;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>（16）</p>
                     </div> 
                 </div>
                 <div class="cardss" style="width:300px;display: flex; flex-direction:column;border-radius: 1rem;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 10px;background: #ffffff;align-items: center;">
-                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="250px" width="250px" style="margin-top: 15px">
+                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="230px" width="230px" style="margin-top: 10px">
                     <div style="width:100%;text-align: left;margin-left: 30px;">
-                        <h5 style="margin-top: 10px;">雪紡上衣</h5>
-                        <p style="color: #ffc84d;"><span class="badge nook">出租中</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <h5 style="margin-top: 10px;margin-bottom: 2px;">雪紡上衣</h5>
+                        <p style="color: #ffc84d;margin-bottom: 2px;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <p style="margin: 0;"><span style="color: #ffc84d;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>（16）</p>
                     </div> 
                 </div>
                 <div class="cardss" style="width:300px;display: flex; flex-direction:column;border-radius: 1rem;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 10px;background: #ffffff;align-items: center;">
-                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="250px" width="250px" style="margin-top: 15px">
+                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="230px" width="230px" style="margin-top: 10px">
                     <div style="width:100%;text-align: left;margin-left: 30px;">
-                        <h5 style="margin-top: 10px;">雪紡上衣</h5>
-                        <p style="color: #ffc84d;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <h5 style="margin-top: 10px;margin-bottom: 2px;">雪紡上衣</h5>
+                        <p style="color: #ffc84d;margin-bottom: 2px;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <p style="margin: 0;"><span style="color: #ffc84d;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>（16）</p>
                     </div> 
-                </div>                
+                </div>            
             </div>
+            <div class="cards" style="width: 80%;height: 345px ;display: flex; flex-direction:row; justify-content: space-between;margin-bottom: 25px;">
+                <div class="cardss" style="width:300px;display: flex; flex-direction:column;border-radius: 1rem;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 10px;background: #ffffff;align-items: center;">
+                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="230px" width="230px" style="margin-top: 10px">
+                    <div style="width:100%;text-align: left;margin-left: 30px;">
+                        <h5 style="margin-top: 10px;margin-bottom: 2px;">雪紡上衣</h5>
+                        <p style="color: #ffc84d;margin-bottom: 2px;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <p style="margin: 0;"><span style="color: #ffc84d;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>（16）</p>
+                    </div> 
+                </div>
+                <div class="cardss" style="width:300px;display: flex; flex-direction:column;border-radius: 1rem;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 10px;background: #ffffff;align-items: center;">
+                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="230px" width="230px" style="margin-top: 10px">
+                    <div style="width:100%;text-align: left;margin-left: 30px;">
+                        <h5 style="margin-top: 10px;margin-bottom: 2px;">雪紡上衣</h5>
+                        <p style="color: #ffc84d;margin-bottom: 2px;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <p style="margin: 0;"><span style="color: #ffc84d;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>（16）</p>
+                    </div> 
+                </div>
+                <div class="cardss" style="width:300px;display: flex; flex-direction:column;border-radius: 1rem;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); padding: 10px;background: #ffffff;align-items: center;">
+                    <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="" height="230px" width="230px" style="margin-top: 10px">
+                    <div style="width:100%;text-align: left;margin-left: 30px;">
+                        <h5 style="margin-top: 10px;margin-bottom: 2px;">雪紡上衣</h5>
+                        <p style="color: #ffc84d;margin-bottom: 2px;"><span class="badge">可租借</span>&nbsp;<i class="fa-solid fa-face-laugh-beam"></i> 300/日</p>
+                        <p style="margin: 0;"><span style="color: #ffc84d;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>（16）</p>
+                    </div> 
+                </div>             
+            </div>
+            <nav aria-label="Page navigation example" style="width: 80%;">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-arrow-left-long"></i></a></li>
+                  <li class="page-item active"><a class="page-link" style="background-color: #eaa79a;" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link1">...</a></li>
+                  <li class="page-item"><a class="page-link" href="#">8</a></li>
+                  <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-arrow-right-long"></i></a></li>
+                </ul>
+              </nav>
             
         </div>
     </section>

@@ -184,27 +184,10 @@ header .ico{
 }
 .bf .list{
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
     width: 20%;
-}
-.bf .list ul{
-    margin-top: 50px;
-}
-.bf .list ul .de{
-    color: #e69686;
-}
-.bf .list li{
-    list-style: none;
-    margin-bottom: 15px;
-}
-.bf .list li a{
-    color: #7a8da6;
-    text-decoration: none;
-    font-size: 18px;
-}
-.bf .list li a:hover{
-    color: #eaa79a;
+    flex-direction: column;
+    margin-top: 120px;
 }
 .bf .page{
     display: flex;
@@ -230,3 +213,31 @@ header .ico{
     text-align: center;
     border-radius: 5px;
   }
+  .bf .page nav ul{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+.bf .page nav ul li a{
+    border: 0;
+    background: none;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    outline: none;
+}
+nav a:focus{
+    box-shadow: none;
+    background-color: rgb(255, 252, 252);
+    color: #333;
+    outline: none;
+}
+nav .page-link:hover{
+    background-color: #fceeec71;
+    color: #eaa79a;
+}
