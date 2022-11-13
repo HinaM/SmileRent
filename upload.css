@@ -241,3 +241,9 @@ nav .page-link:hover{
     background-color: #fceeec71;
     color: #eaa79a;
 }
+.bf .page .cards .cardss{
+    cursor: pointer;
+}
+.bf .list .btn.btn-outline-ok{
+    color: #eaa79a;
+}

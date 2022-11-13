@@ -87,28 +87,47 @@
                 <h4 style="font-weight: bolder;border-left-color: #eaa79a;border-left-width: 5px;border-left-style: solid;">&nbsp;訂單紀錄</h4>
             </div>
             <div class="se" style="margin-bottom: 10px;">
-                <div style="margin-bottom: 10px;">
+                <div style="margin-bottom: 10px;display: flex;flex-direction: row;">
                     <label for="" style="margin-right: 10px;">依租借狀況篩選</label>
 
-                    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                    <label class="btn btn-o"" for="btncheck1">已歸還</label>
-                  
-                    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
-                    <label class="btn btn-o"" for="btncheck2">未歸還</label>
-                  
-                    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                    <label class="btn btn-o"" for="btncheck3">等待寄送中</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"  >
+                        <label class="form-check-label" for="flexCheckDefault" style="margin-right: 10px;">
+                          已歸還
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault" style="margin-right: 10px;">
+                            未歸還
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault" style="margin-right: 10px;">
+                            等待寄送中
+                        </label>
+                      </div>
                 </div>
-                <div style="margin-bottom: 10px;">
+                <div style="margin-bottom: 10px;display: flex;flex-direction: row;">
                     <label for="" style="margin-right: 10px;">依租借行為篩選</label>
-                    <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
-                    <label class="btn btn-o"" for="btncheck4">租衣</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault" style="margin-right: 10px;">
+                            租衣
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault" style="margin-right: 10px;">
+                            借衣
+                        </label>
+                      </div>
                   
-                    <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
-                    <label class="btn btn-o"" for="btncheck5">借衣</label>
+                    
                 </div>
             </div>
-            <table class="table table-hover" align="center">
+            <table class="table table-hover" align="center" >
                 <thead>
                   <tr>
                     <th scope="col">物流追蹤碼</th>
