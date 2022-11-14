@@ -226,7 +226,7 @@ header .ico{
 .bf .page .chat .nw{
     overflow: scroll;
     overflow-x: hidden;
-    max-height: 350px;
+    height: 515px;
 }
 .bf .page .chat button{
     outline: none;
