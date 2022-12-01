@@ -33,6 +33,12 @@ header .nav{
     list-style: none;
     margin: auto;
 }
+.nav li svg{
+    margin-bottom: 2px;
+}
+.nav li svg:hover path{
+    fill: #7a8da6;
+}
 .nav li a{
     margin-right: 15px;
     color: #ffffff;
@@ -198,7 +204,10 @@ header .ico{
 .bf .list li{
     list-style: none;
     margin-bottom: 15px;
+    display: flex;
+    align-items: center;
 }
+
 .bf .list li a{
     color: #7a8da6;
     text-decoration: none;
@@ -393,7 +402,7 @@ header .ico{
     position: fixed;
     height: 80px;
     width: 80px;
-    background-color: #eaa79a;
+    background-image: linear-gradient(to bottom right, #ff9b8c94, #e69686);
     bottom: 70px;
     right:30px;
     border-radius: 100%;
