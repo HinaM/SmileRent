@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    position: relative;
 }
 .bf{
     display: flex;
@@ -234,11 +235,47 @@ header .ico{
     align-items: center;
     justify-content: center;
 }
-.bf .pages .f img{
+.bf .pages .f .imgg{
+    background-image: url("https://images.pexels.com/photos/289225/pexels-photo-289225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 128px;
+    width: 128px;
     margin-right: 15px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100%;
 }
-.bf .pages .f .ff{
-    margin-top: 20px;
+.bf .pages .f .img .icon{
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    height: 30px;
+    width: 30px;
+    background-color: #eaa79a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.bf .pages .f .img .icon i{
+    font-size: 15px;
+    color: #ffffff;
+}
+.bf .pages .f .ff p{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.bf .pages .f .ff .svg{
+    background-image: url("./svg/smile幣-1.svg");
+    height: 25px;
+    width: 25px;
+    fill: #ffc84d;
+    background-repeat: no-repeat;
+}
+.bf .pages .f .ff h4{
+    display: flex;
+    align-items: center;
 }
 .bf .pages .f .ff span{
     font-size: 10px;
@@ -254,6 +291,9 @@ header .ico{
 .bf .pages .f .ff h4 .bg-dang{
     color: #ffffff;
     background-color: #ff7d66;
+}
+.bf .pages .f .ff h4 .bg-sp{
+    background-color: #d49941;
 }
 .bf .pages .btnn{
     display: flex;
@@ -308,6 +348,21 @@ header .ico{
 }
 .page .ca{
     width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page .ca input{
+    background: #eaa79a;
+    border: 2px #eaa79a solid;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 25px;
+    margin-bottom: 10px;
+}
+.page .ca input:hover{
+    background: #fff;
+    color: #eaa79a;
 }
 .ca h4{
     border-left-style: solid;
@@ -333,4 +388,30 @@ header .ico{
 }
 .inf .card .card-body p{
     margin-bottom: 3px;
+}
+.hj{
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    background-color: #eaa79a;
+    bottom: 70px;
+    right:30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+.hj i{
+    position: absolute;
+    bottom: 40px;
+    left:50px;
+    color:#fff;
+    font-size: 12px;
+}
+.hj .cloth{
+    height: 30px;
+    width: 30px;
 }
