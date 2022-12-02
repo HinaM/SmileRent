@@ -36,9 +36,7 @@ header .nav{
 .nav li svg{
     margin-bottom: 2px;
 }
-.nav li svg:hover path{
-    fill: #7a8da6;
-}
+
 .nav li a{
     margin-right: 15px;
     color: #ffffff;
@@ -46,6 +44,9 @@ header .nav{
 }
 .nav li a:hover{
     color: #7a8da6;
+}
+.nav li a:hover svg path{
+    fill: #7a8da6;
 }
 header .ico{
     display: flex;
@@ -421,6 +422,6 @@ header .ico{
     font-size: 12px;
 }
 .hj .cloth{
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
 }

@@ -101,10 +101,17 @@ header .ico{
     border: #7a8da6 solid;
     color: #7a8da6;
 }
+.bf3{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    border-top: #68788e solid 1px;
+}
 .bf3 .soc{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 15px;
 }
 .bf3 .soc .soc1{
     display: flex;
@@ -180,9 +187,10 @@ header .ico{
     margin-left: 20px;
     margin-right: 20px;
     flex-direction: row;
-    margin-top: 50px;
+    
 }
 .bf .list{
+    margin-top: 50px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -211,67 +219,19 @@ header .ico{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
+    height: 100%;
     color: #68788e;
 }
 .bf .page .listt{
-    width: 25%;
+    width: 30%;
     overflow: scroll;
     overflow-x: hidden;
-    max-height: 570px;
+    max-height: 632px;
+
 }
-.bf .page .chat{
-    width: 55%;
-}
-.bf .page .chat .nw{
-    overflow: scroll;
-    overflow-x: hidden;
-    height: 515px;
-}
-.bf .page .chat button{
-    outline: none;
-    color: #ffffff;
-    border: 1px #eaa79a solid;
-    width: 180px;
-    height: 35px;
-    margin-right: 10px;
-    background: #eaa79a;
-    border-radius: 5px;
-}
-.bf .page .chat button:hover{
-    background: #ffffff;
-    color: #eaa79a;
-}
-.bf .page .chat .me{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 10px;
-}
-.bf .page .chat .oth{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-left: 10px;
-}
-.bf .page .chat .t{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.bf .page .chat .me p{
-    background: #eaa79a;
-    padding: 5px 12px;
-    color: #ffffff;
-    border-radius: 2rem;
-    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
-}
-.bf .page .chat .oth p{
-    background: #e4e6eb;
-    padding: 5px 12px;
-    border-radius: 2rem;
-    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
-}
+
+
 .bf .page .listt .user{
     display: flex;
     flex-direction: row;
@@ -285,4 +245,65 @@ header .ico{
 }
 .bf .page .listt .user:hover{
     background-color: #68788e19;
+}
+.bf .page .chat{
+    width: 70%;
+    max-height: 632px;
+}
+.bf .page .chat .chatt{
+    padding: 20px;
+    height: 572px;
+    width: 100%;
+    background-color: #ffffff;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.bf .page .chat .chatt .me{
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border: 2px #eaa79a solid;
+    text-align: right;
+    border-radius: 1rem;
+}
+.bf .page .chat .chatt .oth{
+    padding: 5px 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: #eaa79a;
+    border: 2px #eaa79a solid;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+.bf .page .chat .chatt .oth img{
+    height: 300px;
+    border-radius: 5px;
+}
+.bf .page .chat .chatt .me p,.bf .page .chat .chatt .oth p{
+    margin-bottom: 0;
+}
+.bf .page .chat .box{
+    height: 60px;
+    width: 100%;
+    background-color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bf .page .chat .box input{
+    width: 600px;
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+    border: #eaa79a 2px solid;
+    padding: 2px 12px;
+    border-radius: 1rem;
+}
+.bf .page .chat .box i{
+    cursor: pointer;
+    color: #ff8181;
+    font-size: 25px;
 }
