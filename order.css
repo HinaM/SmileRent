@@ -32,6 +32,12 @@ header .nav{
     list-style: none;
     margin: auto;
 }
+.nav li svg{
+    margin-bottom: 2px;
+}
+.nav li a:hover svg path{
+    fill: #7a8da6;
+}
 .nav li a{
     margin-right: 15px;
     color: #ffffff;
@@ -194,6 +200,14 @@ header .ico{
     text-align: center;
     margin-bottom: 20px;
 }
+.modal-body1 table .imgg{
+    height: 64px;
+    width: 64px;
+    background-image: url("https://images.pexels.com/photos/794064/pexels-photo-794064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center center;
+    margin-right: 5px;
+}
 .modal-body1 table td{
     height: 120px;
     vertical-align: middle;
@@ -225,6 +239,13 @@ header .ico{
 .bf .list li{
     list-style: none;
     margin-bottom: 15px;
+}
+.bf .pages .f .ff .svg{
+    background-image: url("./svg/smile幣-1.svg");
+    height: 25px;
+    width: 25px;
+    fill: #ffc84d;
+    background-repeat: no-repeat;
 }
 .bf .list li a{
     color: #7a8da6;

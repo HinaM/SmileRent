@@ -58,6 +58,54 @@ header .ico{
     list-style: none;
     font-size: 25px;
 }
+.ico .imgg{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-image: url("https://images.pexels.com/photos/289225/pexels-photo-289225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.ico .dropdown .dropdown-menu{
+    padding: 10px;
+}
+.ico .dropdown .dropdown-menu .dropdown-item{
+    color: #7a8da6;
+    border-bottom: 1px #7a8da6 solid;
+}
+.ico .dropdown .dropdown-menu .dropdown-item.new{
+    background-color: #faece9;
+}
+.ico .dropdown .dropdown-menu .dropdown-item h5{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.ico .dropdown .dropdown-menu .more{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#e69686;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+.ico .dropdown .dropdown-menu .more p{
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.ico .dropdown .dropdown-menu .dropdown-item p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.ico .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #faece9;
+}
+.ico .dropdown .dropdown-menu .dropdown-item:active{
+    background-color: #ffe2dd;
+}
 .ico a:hover{
     color: #7a8da6;
 }
@@ -424,4 +472,25 @@ header .ico{
 .hj .cloth{
     height: 25px;
     width: 25px;
+}
+.offcanvas-start .trr{
+    padding: 5px;
+    border-bottom: 1px #707070 solid;
+    color:#5e6b7d;
+    cursor: pointer;
+}
+.offcanvas-start .tr{
+    padding: 5px;
+    border-bottom: 1px #707070 solid;
+    color:#5e6b7d;
+    background-color: #eaa79a37;
+    cursor: pointer;
+}
+.offcanvas-start .tr h5{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.offcanvas-start .trr:hover,.offcanvas-start .tr:hover{
+    background-color: #ffe2dd;
 }
