@@ -258,19 +258,67 @@ header .ico{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 1rem;
 }
-.bf .page .car .cartt button{
-    outline: none;
-    width: 100px;
-    background: #eaa79a;
-    color: #ffffff;
-    padding: 5px;
-    border: 1px #eaa79a solid;
-    border-radius: 5px;
+.bf .page .car .cartt .carttt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
 }
-.bf .page .car .cartt button:hover{
-    color: #eaa79a;
-    background-color: #ffffff;
-    border: 1px #eaa79a solid;
+.bf .page .car .cartt .imggg{
+    background-image: url('https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: #68788e 2px solid;
+}
+.bf .page .car .cartt .imggg2{
+    background-image: url('https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: #68788e 2px solid;
+}
+.bf .page .car .cartt .imgggg{
+    background-image: url('https://images.pexels.com/photos/5942190/pexels-photo-5942190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center center;
+    background-size: cover;
+    width: 85px;
+    height: 85px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.bf .page .car .cartt .imgggg2{
+    background-image: url('https://images.pexels.com/photos/45055/pexels-photo-45055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center center;
+    background-size: cover;
+    width: 85px;
+    height: 85px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.bf .page .car .cartt .imgggg3{
+    background-image: url('https://images.pexels.com/photos/2850487/pexels-photo-2850487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center center;
+    background-size: cover;
+    width: 85px;
+    height: 85px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.bf .page .car .cartt .imgggg4{
+    background-image: url('https://images.pexels.com/photos/1126935/pexels-photo-1126935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center center;
+    background-size: cover;
+    width: 85px;
+    height: 85px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .bf .page .pa{
     width: 80%;
@@ -294,4 +342,20 @@ header .ico{
     color: #eaa79a;
     background-color: #ffffff;
     border: 1px #eaa79a solid;
+}
+.gogo{
+    color: #ffffff;
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    background-image: linear-gradient(to bottom right, #ff9b8c94, #e69686);
+    bottom: 70px;
+    right:30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
 }

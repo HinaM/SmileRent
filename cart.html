@@ -89,127 +89,231 @@
                 </div>
             </div>
             
-            <div class="pa" style="display: flex; align-items: center;border-radius: 1rem;">
-                <div>
-                    <h5>已勾選總計 <span style="color: #ffc84d;"><i class="fa-solid fa-face-laugh-beam"></i> 500</span></h5>
-                </div>
-                <div>
-                    <button onclick="location.href='./ch.html'"><i class="fa-solid fa-cart-shopping"></i>&nbsp;去結帳</button>
-                </div>
-            </div>
+            
             <div class="car">
                 <div class="cartt">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            Smile洗衣店
-                        </label>
+                    <div class="carttt">
+                        <div class="imggg"></div>
+                        <p style="margin: 0;font-size: 18px;font-weight: 600;">小美の租衣店</p>
                     </div>
                     <hr>
-                    <div style="display: flex ; justify-content: space-between;">
-                        <div style="display: flex ; flex-direction: row;">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault"></label>
-                            </div>
-                            <img src="./img/pexels-dom-j-45982.jpg" alt="" width="100px" height="100px">
-                            <div style="margin-left: 15px;">
-                                <h5>條紋毛衣 五日起租</h5>
-                                <h6 style="color: #ffc84d;"><i class="fa-solid fa-face-laugh-beam"></i> 300</h6>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>5日</option>
-                                    <option value="1">6日</option>
-                                    <option value="2">7日</option>
-                                    <option value="3">其他（請私訊買家）</option>
-                                  </select>
+                    <div style="display: flex ; justify-content: space-between; align-items: center;padding: 10px; width: 100%;">
+                        <div style="width: 45%;">品名</div>
+                        <div style="width: 10%;">規格</div>
+                        <div style="width: 10%;">單日價格</div>
+                        <div style="width: 14%;">租借天數</div>
+                        <div style="width: 14%;">總價</div>
+                        <div style="width: 2%;"></div>
+                    </div>
+                    <div style="display: flex ; justify-content: space-between; align-items: center;padding: 10px; width: 100%;">
+                        <div style="display: flex; align-items: center; justify-content: space-between;flex-direction: row; width: 45%;">
+                            <div style="display: flex; align-items: center; justify-content: center;flex-direction: row;">
+                                <input type="checkbox">
+                                <div class="imgggg"></div>
+                                <p style="margin: 0;margin-left: 10px;">Smile小編推薦：純白小禮服</p>
                             </div>
                         </div>
-                        <div style="display: flex;justify-content: center;flex-direction: column;">
-                            <button><i class="fa-solid fa-trash"></i>&nbsp;刪除</button>
+                        <div style="display: flex; flex-direction: column;width: 10%;">
+                            <div class="dropdown">
+                                <p style="margin: 0; cursor: pointer; color: #eaa79a;" data-bs-toggle="dropdown" aria-expanded="false">M <i class="fa-solid fa-caret-down"></i></p>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item">S</a></li>
+                                  <li><a class="dropdown-item">M</a></li>
+                                  <li><a class="dropdown-item">L</a></li>
+                                </ul>
+                              </div>
+                            
+                        </div>
+                        <div style="width: 10%;">
+                            <p style="margin: 0; color: #d49941;">            
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10 12C10 12.5523 9.55228 13 9 13C8.44772 13 8 12.5523 8 12C8 11.4477 8.44772 11 9 11C9.55228 11 10 11.4477 10 12ZM16 12C16 12.5523 15.5523 13 15 13C14.4477 13 14 12.5523 14 12C14 11.4477 14.4477 11 15 11C15.5523 11 16 11.4477 16 12ZM9.5 14C9.5 13.7239 9.27614 13.5 9 13.5C8.72386 13.5 8.5 13.7239 8.5 14C8.5 14.7715 8.96904 15.4087 9.60133 15.8302C10.2371 16.2541 11.0866 16.5 12 16.5C12.9134 16.5 13.7629 16.2541 14.3987 15.8302C15.031 15.4087 15.5 14.7715 15.5 14C15.5 13.7239 15.2761 13.5 15 13.5C14.7239 13.5 14.5 13.7239 14.5 14C14.5 14.3331 14.2975 14.6959 13.844 14.9982C13.394 15.2982 12.7435 15.5 12 15.5C11.2565 15.5 10.606 15.2982 10.156 14.9982C9.70253 14.6959 9.5 14.3331 9.5 14Z" fill="#d49941"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#d49941"/>
+                                </svg>
+                                 1000
+                            </p>
+                        </div>
+                        <div style="width: 14%;">
+                            天數
+                        </div>
+                        <div style="width: 14%;">
+                            <p style="margin: 0; color: #d49941;">            
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10 12C10 12.5523 9.55228 13 9 13C8.44772 13 8 12.5523 8 12C8 11.4477 8.44772 11 9 11C9.55228 11 10 11.4477 10 12ZM16 12C16 12.5523 15.5523 13 15 13C14.4477 13 14 12.5523 14 12C14 11.4477 14.4477 11 15 11C15.5523 11 16 11.4477 16 12ZM9.5 14C9.5 13.7239 9.27614 13.5 9 13.5C8.72386 13.5 8.5 13.7239 8.5 14C8.5 14.7715 8.96904 15.4087 9.60133 15.8302C10.2371 16.2541 11.0866 16.5 12 16.5C12.9134 16.5 13.7629 16.2541 14.3987 15.8302C15.031 15.4087 15.5 14.7715 15.5 14C15.5 13.7239 15.2761 13.5 15 13.5C14.7239 13.5 14.5 13.7239 14.5 14C14.5 14.3331 14.2975 14.6959 13.844 14.9982C13.394 15.2982 12.7435 15.5 12 15.5C11.2565 15.5 10.606 15.2982 10.156 14.9982C9.70253 14.6959 9.5 14.3331 9.5 14Z" fill="#d49941"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#d49941"/>
+                                </svg>
+                                 5000
+                            </p>
+                        </div>
+                        <div style="width: 2%;">
+                            <p style="margin: 0;color: #eaa79a; cursor: pointer;">
+                                <i class="fa-solid fa-trash"></i>
+                            </p>
                         </div>
                     </div>
                     <div style="margin-top: 15px;"></div>
-                    <div style="display: flex ; justify-content: space-between;">
-                        <div style="display: flex ; flex-direction: row;">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault"></label>
-                            </div>
-                            <img src="./img/pexels-dom-j-45982.jpg" alt="" width="100px" height="100px">
-                            <div style="margin-left: 15px;">
-                                <h5>條紋毛衣 五日起租</h5>
-                                <h6 style="color: #ffc84d;"><i class="fa-solid fa-face-laugh-beam"></i> 300</h6>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>5日</option>
-                                    <option value="1">6日</option>
-                                    <option value="2">7日</option>
-                                    <option value="3">其他（請私訊買家）</option>
-                                  </select>
+                    <div style="display: flex ; justify-content: space-between; align-items: center;padding: 10px; width: 100%;">
+                        <div style="display: flex; align-items: center; justify-content: space-between;flex-direction: row; width: 45%;">
+                            <div style="display: flex; align-items: center; justify-content: center;flex-direction: row;">
+                                <input type="checkbox">
+                                <div class="imgggg2"></div>
+                                <p style="margin: 0;margin-left: 10px;">名牌西服領帶</p>
                             </div>
                         </div>
-                        <div style="display: flex;justify-content: center;flex-direction: column;">
-                            <button><i class="fa-solid fa-trash"></i>&nbsp;刪除</button>
+                        <div style="display: flex; flex-direction: column;width: 10%;">
+                            <div class="dropdown">
+                                <p style="margin: 0; cursor: pointer; color: #eaa79a;" data-bs-toggle="dropdown" aria-expanded="false">藍色 <i class="fa-solid fa-caret-down"></i></p>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item">藍色</a></li>
+                                  <li><a class="dropdown-item">灰色</a></li>
+                                  <li><a class="dropdown-item">紅色</a></li>
+                                </ul>
+                              </div>
+                            
+                        </div>
+                        <div style="width: 10%;">
+                            <p style="margin: 0; color: #d49941;">            
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10 12C10 12.5523 9.55228 13 9 13C8.44772 13 8 12.5523 8 12C8 11.4477 8.44772 11 9 11C9.55228 11 10 11.4477 10 12ZM16 12C16 12.5523 15.5523 13 15 13C14.4477 13 14 12.5523 14 12C14 11.4477 14.4477 11 15 11C15.5523 11 16 11.4477 16 12ZM9.5 14C9.5 13.7239 9.27614 13.5 9 13.5C8.72386 13.5 8.5 13.7239 8.5 14C8.5 14.7715 8.96904 15.4087 9.60133 15.8302C10.2371 16.2541 11.0866 16.5 12 16.5C12.9134 16.5 13.7629 16.2541 14.3987 15.8302C15.031 15.4087 15.5 14.7715 15.5 14C15.5 13.7239 15.2761 13.5 15 13.5C14.7239 13.5 14.5 13.7239 14.5 14C14.5 14.3331 14.2975 14.6959 13.844 14.9982C13.394 15.2982 12.7435 15.5 12 15.5C11.2565 15.5 10.606 15.2982 10.156 14.9982C9.70253 14.6959 9.5 14.3331 9.5 14Z" fill="#d49941"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#d49941"/>
+                                </svg>
+                                 1000
+                            </p>
+                        </div>
+                        <div style="width: 14%;">
+                            天數
+                        </div>
+                        <div style="width: 14%;">
+                            <p style="margin: 0; color: #d49941;">            
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10 12C10 12.5523 9.55228 13 9 13C8.44772 13 8 12.5523 8 12C8 11.4477 8.44772 11 9 11C9.55228 11 10 11.4477 10 12ZM16 12C16 12.5523 15.5523 13 15 13C14.4477 13 14 12.5523 14 12C14 11.4477 14.4477 11 15 11C15.5523 11 16 11.4477 16 12ZM9.5 14C9.5 13.7239 9.27614 13.5 9 13.5C8.72386 13.5 8.5 13.7239 8.5 14C8.5 14.7715 8.96904 15.4087 9.60133 15.8302C10.2371 16.2541 11.0866 16.5 12 16.5C12.9134 16.5 13.7629 16.2541 14.3987 15.8302C15.031 15.4087 15.5 14.7715 15.5 14C15.5 13.7239 15.2761 13.5 15 13.5C14.7239 13.5 14.5 13.7239 14.5 14C14.5 14.3331 14.2975 14.6959 13.844 14.9982C13.394 15.2982 12.7435 15.5 12 15.5C11.2565 15.5 10.606 15.2982 10.156 14.9982C9.70253 14.6959 9.5 14.3331 9.5 14Z" fill="#d49941"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#d49941"/>
+                                </svg>
+                                 5000
+                            </p>
+                        </div>
+                        <div style="width: 2%;">
+                            <p style="margin: 0;color: #eaa79a; cursor: pointer;">
+                                <i class="fa-solid fa-trash"></i>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="cartt">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
-                        <label class="form-check-label" for="flexCheckDefault5">
-                            Smile租衣店
-                        </label>
+                    <div class="carttt">
+                        <div class="imggg2"></div>
+                        <p style="margin: 0;font-size: 18px;font-weight: 600;">休閒★度假服裝專賣店</p>
                     </div>
                     <hr>
-                    <div style="display: flex ; justify-content: space-between;">
-                        <div style="display: flex ; flex-direction: row;">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault"></label>
-                            </div>
-                            <img src="./img/pexels-dom-j-45982.jpg" alt="" width="100px" height="100px">
-                            <div style="margin-left: 15px;">
-                                <h5>條紋毛衣 五日起租</h5>
-                                <h6 style="color: #ffc84d;"><i class="fa-solid fa-face-laugh-beam"></i> 300</h6>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>5日</option>
-                                    <option value="1">6日</option>
-                                    <option value="2">7日</option>
-                                    <option value="3">其他（請私訊買家）</option>
-                                  </select>
+                    <div style="display: flex ; justify-content: space-between; align-items: center;padding: 10px; width: 100%;">
+                        <div style="width: 45%;">品名</div>
+                        <div style="width: 10%;">規格</div>
+                        <div style="width: 10%;">單日價格</div>
+                        <div style="width: 14%;">租借天數</div>
+                        <div style="width: 14%;">總價</div>
+                        <div style="width: 2%;"></div>
+                    </div>
+                    <div style="display: flex ; justify-content: space-between; align-items: center;padding: 10px; width: 100%;">
+                        <div style="display: flex; align-items: center; justify-content: space-between;flex-direction: row; width: 45%;">
+                            <div style="display: flex; align-items: center; justify-content: center;flex-direction: row;">
+                                <input type="checkbox">
+                                <div class="imgggg3"></div>
+                                <p style="margin: 0;margin-left: 10px;">無袖百穿百搭小禮服</p>
                             </div>
                         </div>
-                        <div style="display: flex;justify-content: center;flex-direction: column;">
-                            <button><i class="fa-solid fa-trash"></i>&nbsp;刪除</button>
+                        <div style="display: flex; flex-direction: column;width: 10%;">
+                            <div class="dropdown">
+                                <p style="margin: 0; cursor: pointer; color: #eaa79a;" data-bs-toggle="dropdown" aria-expanded="false">S <i class="fa-solid fa-caret-down"></i></p>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item">S</a></li>
+                                  <li><a class="dropdown-item">M</a></li>
+                                  <li><a class="dropdown-item">L</a></li>
+                                </ul>
+                              </div>
+                            
+                        </div>
+                        <div style="width: 10%;">
+                            <p style="margin: 0; color: #d49941;">            
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10 12C10 12.5523 9.55228 13 9 13C8.44772 13 8 12.5523 8 12C8 11.4477 8.44772 11 9 11C9.55228 11 10 11.4477 10 12ZM16 12C16 12.5523 15.5523 13 15 13C14.4477 13 14 12.5523 14 12C14 11.4477 14.4477 11 15 11C15.5523 11 16 11.4477 16 12ZM9.5 14C9.5 13.7239 9.27614 13.5 9 13.5C8.72386 13.5 8.5 13.7239 8.5 14C8.5 14.7715 8.96904 15.4087 9.60133 15.8302C10.2371 16.2541 11.0866 16.5 12 16.5C12.9134 16.5 13.7629 16.2541 14.3987 15.8302C15.031 15.4087 15.5 14.7715 15.5 14C15.5 13.7239 15.2761 13.5 15 13.5C14.7239 13.5 14.5 13.7239 14.5 14C14.5 14.3331 14.2975 14.6959 13.844 14.9982C13.394 15.2982 12.7435 15.5 12 15.5C11.2565 15.5 10.606 15.2982 10.156 14.9982C9.70253 14.6959 9.5 14.3331 9.5 14Z" fill="#d49941"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#d49941"/>
+                                </svg>
+                                 1000
+                            </p>
+                        </div>
+                        <div style="width: 14%;">
+                            天數
+                        </div>
+                        <div style="width: 14%;">
+                            <p style="margin: 0; color: #d49941;">            
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10 12C10 12.5523 9.55228 13 9 13C8.44772 13 8 12.5523 8 12C8 11.4477 8.44772 11 9 11C9.55228 11 10 11.4477 10 12ZM16 12C16 12.5523 15.5523 13 15 13C14.4477 13 14 12.5523 14 12C14 11.4477 14.4477 11 15 11C15.5523 11 16 11.4477 16 12ZM9.5 14C9.5 13.7239 9.27614 13.5 9 13.5C8.72386 13.5 8.5 13.7239 8.5 14C8.5 14.7715 8.96904 15.4087 9.60133 15.8302C10.2371 16.2541 11.0866 16.5 12 16.5C12.9134 16.5 13.7629 16.2541 14.3987 15.8302C15.031 15.4087 15.5 14.7715 15.5 14C15.5 13.7239 15.2761 13.5 15 13.5C14.7239 13.5 14.5 13.7239 14.5 14C14.5 14.3331 14.2975 14.6959 13.844 14.9982C13.394 15.2982 12.7435 15.5 12 15.5C11.2565 15.5 10.606 15.2982 10.156 14.9982C9.70253 14.6959 9.5 14.3331 9.5 14Z" fill="#d49941"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#d49941"/>
+                                </svg>
+                                 5000
+                            </p>
+                        </div>
+                        <div style="width: 2%;">
+                            <p style="margin: 0;color: #eaa79a; cursor: pointer;">
+                                <i class="fa-solid fa-trash"></i>
+                            </p>
                         </div>
                     </div>
                     <div style="margin-top: 15px;"></div>
-                    <div style="display: flex ; justify-content: space-between;">
-                        <div style="display: flex ; flex-direction: row;">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault"></label>
-                            </div>
-                            <img src="./img/pexels-dom-j-45982.jpg" alt="" width="100px" height="100px">
-                            <div style="margin-left: 15px;">
-                                <h5>條紋毛衣 五日起租</h5>
-                                <h6 style="color: #ffc84d;"><i class="fa-solid fa-face-laugh-beam"></i> 300</h6>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>5日</option>
-                                    <option value="1">6日</option>
-                                    <option value="2">7日</option>
-                                    <option value="3">其他（請私訊買家）</option>
-                                  </select>
+                    <div style="display: flex ; justify-content: space-between; align-items: center;padding: 10px; width: 100%;">
+                        <div style="display: flex; align-items: center; justify-content: space-between;flex-direction: row; width: 45%;">
+                            <div style="display: flex; align-items: center; justify-content: center;flex-direction: row;">
+                                <input type="checkbox">
+                                <div class="imgggg4"></div>
+                                <p style="margin: 0;margin-left: 10px;">夏日好時光：夏威夷度假風襯衫</p>
                             </div>
                         </div>
-                        <div style="display: flex;justify-content: center;flex-direction: column;">
-                            <button><i class="fa-solid fa-trash"></i>&nbsp;刪除</button>
+                        <div style="display: flex; flex-direction: column;width: 10%;">
+                            <div class="dropdown">
+                                <p style="margin: 0; cursor: pointer; color: #eaa79a;" data-bs-toggle="dropdown" aria-expanded="false">L <i class="fa-solid fa-caret-down"></i></p>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item">S</a></li>
+                                  <li><a class="dropdown-item">M</a></li>
+                                  <li><a class="dropdown-item">L</a></li>
+                                </ul>
+                              </div>
+                            
+                        </div>
+                        <div style="width: 10%;">
+                            <p style="margin: 0; color: #d49941;">            
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10 12C10 12.5523 9.55228 13 9 13C8.44772 13 8 12.5523 8 12C8 11.4477 8.44772 11 9 11C9.55228 11 10 11.4477 10 12ZM16 12C16 12.5523 15.5523 13 15 13C14.4477 13 14 12.5523 14 12C14 11.4477 14.4477 11 15 11C15.5523 11 16 11.4477 16 12ZM9.5 14C9.5 13.7239 9.27614 13.5 9 13.5C8.72386 13.5 8.5 13.7239 8.5 14C8.5 14.7715 8.96904 15.4087 9.60133 15.8302C10.2371 16.2541 11.0866 16.5 12 16.5C12.9134 16.5 13.7629 16.2541 14.3987 15.8302C15.031 15.4087 15.5 14.7715 15.5 14C15.5 13.7239 15.2761 13.5 15 13.5C14.7239 13.5 14.5 13.7239 14.5 14C14.5 14.3331 14.2975 14.6959 13.844 14.9982C13.394 15.2982 12.7435 15.5 12 15.5C11.2565 15.5 10.606 15.2982 10.156 14.9982C9.70253 14.6959 9.5 14.3331 9.5 14Z" fill="#d49941"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#d49941"/>
+                                </svg>
+                                 1000
+                            </p>
+                        </div>
+                        <div style="width: 14%;">
+                            天數
+                        </div>
+                        <div style="width: 14%;">
+                            <p style="margin: 0; color: #d49941;">            
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10 12C10 12.5523 9.55228 13 9 13C8.44772 13 8 12.5523 8 12C8 11.4477 8.44772 11 9 11C9.55228 11 10 11.4477 10 12ZM16 12C16 12.5523 15.5523 13 15 13C14.4477 13 14 12.5523 14 12C14 11.4477 14.4477 11 15 11C15.5523 11 16 11.4477 16 12ZM9.5 14C9.5 13.7239 9.27614 13.5 9 13.5C8.72386 13.5 8.5 13.7239 8.5 14C8.5 14.7715 8.96904 15.4087 9.60133 15.8302C10.2371 16.2541 11.0866 16.5 12 16.5C12.9134 16.5 13.7629 16.2541 14.3987 15.8302C15.031 15.4087 15.5 14.7715 15.5 14C15.5 13.7239 15.2761 13.5 15 13.5C14.7239 13.5 14.5 13.7239 14.5 14C14.5 14.3331 14.2975 14.6959 13.844 14.9982C13.394 15.2982 12.7435 15.5 12 15.5C11.2565 15.5 10.606 15.2982 10.156 14.9982C9.70253 14.6959 9.5 14.3331 9.5 14Z" fill="#d49941"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="#d49941"/>
+                                </svg>
+                                 5000
+                            </p>
+                        </div>
+                        <div style="width: 2%;">
+                            <p style="margin: 0;color: #eaa79a; cursor: pointer;">
+                                <i class="fa-solid fa-trash"></i>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+    <div class="gogo">
+        <i class="fa-solid fa-cart-shopping" style="font-size: 25px;"></i>
+        <p style="margin: 0;">去結帳</p>
+    </div>
     
     <section class="bf3" style="background-color: #ffffff;">
         <hr align="center" noshade>
