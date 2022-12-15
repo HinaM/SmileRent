@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>SmileRent</title>
 </head>
-<body style="background-color: #fff9f858;">
+<body style="background-color: #fff9f858;min-height: 100vh;">
     <header>
         <img src="./img/amazon-pay.png" alt="">
         <ul class="nav">
@@ -23,11 +23,44 @@
         </ul>
         <div class="ico">
             <a class="sea" data-bs-toggle="modal" data-bs-target="#exampleModalse"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
-            <a href="./sysinfo.html" class="sea"><i class="fa-solid fa-bell">
-                <span class="position-absolute top-2 start-80 translate-middle p-1 bg-danger border border-light rounded-circle">
-                    <span class="visually-hidden">New alerts</span>
-                </span>
-            </i></a>
+            <div class="dropdown">
+                <a class="sea" data-bs-toggle="dropdown"
+                aria-expanded="false"><i class="fa-solid fa-bell">
+                    <span class="position-absolute top-2 start-80 translate-middle p-1 bg-danger border border-light rounded-circle">
+                        <span class="visually-hidden">New alerts</span>
+                    </span>
+                </i></a>
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item new">
+                      <h5>系統訊息</h5>
+                      <p>2022/12/15 0:00-4:00為系統例行維護時間，期間系統無法進行操作，造成不便請見諒。</p>
+                  </a></li>
+                  <li><a class="dropdown-item new">
+                    <h5>評價通知</h5>
+                    <p>用戶：美女今天租衣服了嗎，給你5星評價，請在30日內給予此訂單評價以獲得回饋型Smile幣！</p>
+                  </a></li>
+                  <li><a class="dropdown-item">
+                    <h5>SmilePremium開通成功</h5>
+                    <p>您這個月可以享受SmilePremium會員專屬優惠囉！</p>
+                  </a></li>
+                  <li><a class="dropdown-item">
+                    <h5>出貨通知</h5>
+                    <p>訂單編號：123456，請在30日內出貨。</p>
+                  </a></li>
+                  <li><a class="dropdown-item">
+                    <h5>歸還衣服了嗎</h5>
+                    <p>您租借的衣服：藍格襯衫，尚餘2日到期，請在期限內歸還衣物。</p>
+                  </a></li>
+                  <li><a class="dropdown-item">
+                    <h5>藍格短裙正在等你！</h5>
+                    <p>您購物車中的藍格短裙特價中！還等什麼快下單吧！</p>
+                  </a></li>
+                  <li class="more">
+                    <p>查看更多</p>
+                  </li>
+                </ul>
+              </div>
             <a href="./in.html" class="se">
                 <li>
                     <img src="./img/user.png">
@@ -76,13 +109,13 @@
                 <li><a href="./in.html"><i class="fa-solid fa-gear"></i> 會員中心</a></li>
                 <li><a href="./order.html"><i class="fa-solid fa-credit-card"></i> 交易紀錄</a></li>
                 <li><a href="#" class="de"><i class="fa-solid fa-heart"></i> 捐贈專區</a></li>
-                <li><a href="./sysinfo.html"><i class="fa-sharp fa-solid fa-circle-info"></i> 系統訊息</a></li>
                 <li><a href="./chat.html"><i class="fa-sharp fa-solid fa-comments"></i> 聊聊紀錄</a></li>
                 <li><a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i> 購物車</a></li>
                 <li><a href="./signin.html"><i class="fa-solid fa-right-from-bracket"></i> 登出</a></li>
             </ul>
         </div>
         <div class="page">
+            <!--
             <div class="imgg">
                 <img src="./img/pexels-polina-tankilevitch-5585849.jpg" alt="">
                 <div class="fontt">
@@ -90,8 +123,10 @@
                     <p>若能夠洞悉捐贈衣物各種層面的含義，勢必能讓思維再提高一個層級。顏之推深信，天下事以難而廢者十之一，以惰而廢者十之九。希望大家實際感受一下這段話。布萊克曾經說過，那種一味期待而從不行動的人們，是滋生瘟疫的溫床。希望大家能發現話中之話。</p>
                 </div>
             </div>
+            -->
             <div class="font" style="margin-bottom: 10px;">
                 <h4 style="font-weight: bolder;border-left-color: #eaa79a;border-left-width: 5px;border-left-style: solid;">&nbsp;捐贈表單</h4>
+                <p>若您有想捐贈的衣物，請妥表單後送出，客服人員會在1-3工作天內與您聯繫。日後感謝信將會送至您填寫的地址，SmileRent感謝您的愛心！</p>
             </div>
             <form class="row g-3">
                 <div class="col-md-6">
@@ -136,8 +171,7 @@
               </form>
         </div>
     </section>
-    <section class="bf3" style="background-color: #ffffff;">
-        <hr align="center" noshade>
+    <section class="bf3">
         <div class="soc">
             <div class="cp">Copyright © SmileRent 2022</div>
             <div class="soc1">

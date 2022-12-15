@@ -56,6 +56,46 @@ header .ico{
     list-style: none;
     font-size: 25px;
 }
+.ico .dropdown .dropdown-menu{
+    padding: 10px;
+}
+.ico .dropdown .dropdown-menu .dropdown-item{
+    color: #7a8da6;
+    border-bottom: 1px #7a8da6 solid;
+    cursor: pointer;
+}
+.ico .dropdown .dropdown-menu .dropdown-item.new{
+    background-color: #faece9;    
+}
+.ico .dropdown .dropdown-menu .dropdown-item h5{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.ico .dropdown .dropdown-menu .more{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#e69686;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+.ico .dropdown .dropdown-menu .more p{
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.ico .dropdown .dropdown-menu .dropdown-item p{
+    margin: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.ico .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #ec9f9248;
+}
+.ico .dropdown .dropdown-menu .dropdown-item:active{
+    background-color: #ffe2dd;
+}
 .ico a:hover{
     color: #7a8da6;
 }
