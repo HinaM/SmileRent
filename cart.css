@@ -251,6 +251,7 @@ header .ico{
     width: 80%;
     color: #68788e;
 }
+
 .bf .page .car{
     width: 80%;
 }
@@ -265,6 +266,12 @@ header .ico{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+.bf .page .car .cartttt svg{
+    margin-bottom: 2px;
+}
+.bf .page .car .cartt p svg{
+    margin-bottom: 2px;
 }
 .bf .page .car .cartttt button{
     outline: none;

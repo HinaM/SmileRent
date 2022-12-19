@@ -314,7 +314,7 @@ header .ico{
     color: #eaa79a;
     background-color: #e69686;
     color: #ffffff;
-    border-radius: 1rem;
+    border-radius: 2rem;
     padding: 18px 18px 18px 18px;
 }
 .bf .page form .sub button{
@@ -323,6 +323,8 @@ header .ico{
     background-color: #e69686;
     color: #ffffff;
     height: 40px;
+    border-radius: 2rem;
+    padding: 5px 10px;
 }
 .bf .page .imgg{
     width: 80%;
